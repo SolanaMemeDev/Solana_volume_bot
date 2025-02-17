@@ -55,12 +55,14 @@ Welcome to the Volume Bot for Pump Fun! This bot automates generating buy and se
     After setting up your bot's name and username, BotFather will provide you with a unique token. This token is crucial for communicating with the Telegram Bot API. 
     
     Example Response from BotFather:
-    
-    Done! Congratulations on your new bot. You will find it at t.me/YourBotUsername. You can now add a description, about section and profile picture for your bot, see /help for a list of commands. By the way, when you've finished creating your cool bot, ping our Bot Support if you want a better username for it. Just make sure the bot is fully operational before you do this.
+     ```sh
+        Done! Congratulations on your new bot. You will find it at t.me/YourBotUsername. You can now add a description, about section and profile picture for your bot, see /help for a list of commands. By the way, when you've finished creating your cool bot, ping our Bot Support if you want a better username for it. Just make sure the bot is fully operational before you do this.
 
-    Use this token to access the HTTP API:
-    123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11
-    Keep this token secret! Do not share it or expose it in your code repository.
+        Use this token to access the HTTP API:
+        123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11
+        Keep this token secret! Do not share it or expose it in your code repository.
+    ```
+    
 
 4. **Adjust the settings** (optional):
     You can adjust the buy amount, fees, slippage, number of cycles, max simultaneous buys/sells, and intervals between actions directly in the `index.js` file.
